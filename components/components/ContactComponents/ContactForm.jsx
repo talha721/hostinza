@@ -1,6 +1,21 @@
-import React from "react";
+import React, { useState } from "react";
+import axios from "axios";
 
 const ContactForm = () => {
+  const [contactValues, setContactValues] = useState({
+    name: "",
+    email: "",
+    website: "",
+    message: "",
+  });
+
+  const handleSubmit = () => {
+    axios
+      .post("api/contact", contactValues)
+      .then((response) => console.log(response))
+      .catch((error) => console.log(error));
+  };
+
   return (
     <section className="xs-section-padding xs-bg-gray">
       <div className="container">
@@ -20,8 +35,9 @@ const ContactForm = () => {
               <form
                 action="#"
                 method="POST"
-                id="xs-contact-form"
+                id="contact-form"
                 className="xs-form"
+                onClick={(values) => handleSubmit(values)}
               >
                 <div className="form-group">
                   <input
@@ -29,36 +45,60 @@ const ContactForm = () => {
                     className="form-control"
                     name="name"
                     placeholder="Name"
-                    id="xs_contact_name"
+                    id="name"
+                    onChange={(e) =>
+                      setContactValues({
+                        ...contactValues,
+                        name: e.target.value,
+                      })
+                    }
                   />
                   <input
                     type="email"
                     className="form-control"
                     name="email"
                     placeholder="Email"
-                    id="xs_contact_email"
+                    id="email"
+                    onChange={(e) =>
+                      setContactValues({
+                        ...contactValues,
+                        email: e.target.value,
+                      })
+                    }
                   />
                   <input
                     type="url"
                     className="form-control"
                     name="website"
                     placeholder="Website"
-                    id="xs_contact_website"
+                    id="website"
+                    onChange={(e) =>
+                      setContactValues({
+                        ...contactValues,
+                        website: e.target.value,
+                      })
+                    }
                   />
                   <textarea
                     name="massage"
                     placeholder="Question"
-                    id="x_contact_massage"
+                    id="massage"
                     className="form-control"
                     cols="30"
                     rows="10"
+                    onChange={(e) =>
+                      setContactValues({
+                        ...contactValues,
+                        message: e.target.value,
+                      })
+                    }
                   ></textarea>
                 </div>
                 <div className="xs-btn-wraper">
                   <input
                     type="submit"
                     className="btn btn-primary"
-                    id="xs_contact_submit"
+                    id="submit"
                     value="Submit Now"
                   />
                 </div>

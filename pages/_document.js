@@ -6,7 +6,6 @@ export default function Document() {
       <Head>
         <meta charSet="utf-8" />
         <meta httpEquiv="x-ua-compatible" content="ie=edge" />
-        <title>Hostinza - Index Two</title>
         <meta name="description" content="" />
         <meta
           name="viewport"
