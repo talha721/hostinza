@@ -1,7 +1,9 @@
 import React from "react";
 import Image from "next/image";
 
-import BannerImage from "../../public/assets/images/welcome/banner_image-3.png";
+import HorizontalImage from "../../public/assets/images/welcome/horizontal-shape.png";
+import VerticalShape1 from "../../public/assets/images/welcome/vertical-shape-1.png";
+import VerticalShape2 from "../../public/assets/images/welcome/vertical-shape-2.png";
 
 const Banner = () => {
   return (
@@ -71,22 +73,13 @@ const Banner = () => {
       <div className="wave_animation_wraper">
         <div className="wave_animation">
           <div className="layer wave one" data-depth="0.20">
-            <img
-              src="assets/images/welcome/horizontal-shape.png"
-              alt="horizontal shape"
-            />
+            <Image src={HorizontalImage} alt="horizontal shape" />
           </div>
           <div className="layer wave two" data-depth="0.6">
-            <img
-              src="assets/images/welcome/vertical-shape-1.png"
-              alt="vrtical shape"
-            />
+            <Image src={VerticalShape1} alt="vrtical shape" />
           </div>
           <div className="layer wave three" data-depth="0.4">
-            <img
-              src="assets/images/welcome/vertical-shape-2.png"
-              alt="vrtical shape"
-            />
+            <Image src={VerticalShape2} alt="vrtical shape" />
           </div>
         </div>
       </div>

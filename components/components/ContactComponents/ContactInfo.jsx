@@ -1,4 +1,10 @@
 import React from "react";
+import Image from "next/image";
+import Link from "next/link";
+
+import ContactInfoIcon1 from "../../../public/assets/images/contact-info-icon-1.png";
+import ContactInfoIcon2 from "../../../public/assets/images/contact-info-icon-2.png";
+import ContactInfoIcon3 from "../../../public/assets/images/contact-info-icon-3.png";
 
 const ContactInfo = () => {
   return (
@@ -18,13 +24,10 @@ const ContactInfo = () => {
           <div className="col-lg-4 col-md-6">
             <div className="contact-info-group wow fadeInUp">
               <div className="contact-info-icon">
-                <img
-                  src="assets/images/contact-info-icon-1.png"
-                  alt="contact info icon"
-                />
+                <Image src={ContactInfoIcon1} alt="contact info icon" />
               </div>
               <h4 className="xs-title">
-                <a href="#">Find us</a>
+                <Link href="#">Find us</Link>
               </h4>
               <span>1Hd- 50, 010 Avenue, NY 90001</span>
               <span>United States</span>
@@ -32,17 +35,14 @@ const ContactInfo = () => {
           </div>
           <div className="col-lg-4 col-md-6">
             <div
-              className="contact-info-group wow fadeInUp active"
+              className="contact-info-group wow fadeInUp"
               data-wow-duration="1.5s"
             >
               <div className="contact-info-icon">
-                <img
-                  src="assets/images/contact-info-icon-2.png"
-                  alt="contact info icon"
-                />
+                <Image src={ContactInfoIcon2} alt="contact info icon" />
               </div>
               <h4 className="xs-title">
-                <a href="#">Make a Call</a>
+                <Link href="#">Make a Call</Link>
               </h4>
               <span>009-215-5596 (toll free)</span>
               <span>009-215-5595</span>
@@ -54,16 +54,13 @@ const ContactInfo = () => {
               data-wow-duration="2s"
             >
               <div className="contact-info-icon">
-                <img
-                  src="assets/images/contact-info-icon-3.png"
-                  alt="contact info icon"
-                />
+                <Image src={ContactInfoIcon3} alt="contact info icon" />
               </div>
               <h4 className="xs-title">
-                <a href="#">Send Mail</a>
+                <Link href="#">Send Mail</Link>
               </h4>
-              <a href="mailto:contact@example.com">contact@example.com</a>
-              <a href="mailto:info@example.com">info@example.com</a>
+              <Link href="mailto:contact@example.com">contact@example.com</Link>
+              <Link href="mailto:info@example.com">info@example.com</Link>
             </div>
           </div>
         </div>

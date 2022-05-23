@@ -1,5 +1,11 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
+
+import BlueLogo from "../../public/assets/images/blue_logo.png";
+import Location from "../../public/assets/images/mail.png";
+import Mail from "../../public/assets/images/location.png";
+import Phone from "../../public/assets/images/phone.png";
 
 const SidebarCartMenu = () => {
   return (
@@ -10,9 +16,9 @@ const SidebarCartMenu = () => {
           <div className="sidebar-widget-container">
             <div className="widget-heading media">
               <div className="media-body">
-                <a href="#" className="close-side-widget">
-                  X
-                </a>
+                <Link href="#">
+                  <a className="close-side-widget">X</a>
+                </Link>
               </div>
             </div>
             <div className="xs-empty-content">
@@ -22,9 +28,9 @@ const SidebarCartMenu = () => {
                 <i className="icon icon-shopping-cart"></i>
               </p>
               <p className="xs-btn-wraper">
-                <a className="btn btn-primary" href="#">
-                  Return To Shop
-                </a>
+                <Link href="#">
+                  <a className="btn btn-primary">Return To Shop</a>
+                </Link>
               </p>
             </div>
           </div>
@@ -35,13 +41,13 @@ const SidebarCartMenu = () => {
         <div className="xs-sidebar-widget">
           <div className="sidebar-widget-container">
             <div className="widget-heading">
-              <a href="#" className="close-side-widget">
-                X
-              </a>
+              <Link href="#">
+                <a className="close-side-widget">X</a>
+              </Link>
             </div>
             <div className="sidebar-textwidget">
               <div className="sidebar-logo-wraper">
-                <img src="assets/images/blue_logo.png" alt="sidebar logo" />
+                <Image src={BlueLogo} alt="sidebar logo" />
               </div>
               <p>
                 Far far away, behind the word moun tains, far from the countries
@@ -52,9 +58,9 @@ const SidebarCartMenu = () => {
                 <li>
                   <div className="media">
                     <div className="d-flex">
-                      <img src="assets/images/location.png" alt="" />
+                      <Image src={Location} alt="location" />
                     </div>
-                    <div className="media-body">
+                    <div className="media-body ml-3">
                       <p>759 Pinewood Avenue</p>
                       <span>Marquette, Michigan</span>
                     </div>
@@ -63,10 +69,10 @@ const SidebarCartMenu = () => {
                 <li>
                   <div className="media">
                     <div className="d-flex">
-                      <img src="assets/images/mail.png" alt="" />
+                      <Image src={Mail} alt="mail" />
                     </div>
-                    <div className="media-body">
-                      <a href="mailto:info@domain.com">info@domain.com</a>
+                    <div className="media-body ml-3">
+                      <Link href="mailto:info@domain.com">info@domain.com</Link>
                       <span>Online Support</span>
                     </div>
                   </div>
@@ -74,9 +80,9 @@ const SidebarCartMenu = () => {
                 <li>
                   <div className="media">
                     <div className="d-flex">
-                      <img src="assets/images/phone.png" alt="" />
+                      <Image src={Phone} alt="phone" />
                     </div>
-                    <div className="media-body">
+                    <div className="media-body ml-3">
                       <p>906-624-2565</p>
                       <span>Mon-Fri 8am-5pm</span>
                     </div>
@@ -134,9 +140,9 @@ const SidebarCartMenu = () => {
                 </li>
               </ul>
               <div className="text-center">
-                <a href="#" className="btn btn-primary">
-                  Purchase Now
-                </a>
+                <Link href="#">
+                  <a className="btn btn-primary">Purchase Now</a>
+                </Link>
               </div>
             </div>
           </div>

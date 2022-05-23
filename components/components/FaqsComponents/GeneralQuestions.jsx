@@ -25,7 +25,7 @@ const GeneralQuestions = () => {
                     aria-expanded="true"
                     aria-controls="collapseOne"
                   >
-                    Do you offer managed hosting?{" "}
+                    Do you offer managed hosting?
                     <i className="icon icon-chevron-down"></i>
                   </a>
                 </div>
@@ -53,7 +53,7 @@ const GeneralQuestions = () => {
                     aria-expanded="false"
                     aria-controls="collapseTwo"
                   >
-                    How to buy a domain in cheap price?{" "}
+                    How to buy a domain in cheap price?
                     <i className="icon icon-chevron-down"></i>
                   </a>
                 </div>
@@ -81,7 +81,7 @@ const GeneralQuestions = () => {
                     aria-expanded="false"
                     aria-controls="collapseThree"
                   >
-                    How do I set up a URL redirect for a domain?{" "}
+                    How do I set up a URL redirect for a domain?
                     <i className="icon icon-chevron-down"></i>
                   </a>
                 </div>
@@ -110,7 +110,7 @@ const GeneralQuestions = () => {
                     aria-expanded="false"
                     aria-controls="collapseFour"
                   >
-                    How can I change the nameservers for my domain?{" "}
+                    How can I change the nameservers for my domain?
                     <i className="icon icon-chevron-down"></i>
                   </a>
                 </div>
@@ -138,7 +138,7 @@ const GeneralQuestions = () => {
                     aria-expanded="false"
                     aria-controls="collapseFive"
                   >
-                    How do I generate a CSR code?{" "}
+                    How do I generate a CSR code?
                     <i className="icon icon-chevron-down"></i>
                   </a>
                 </div>
@@ -171,7 +171,7 @@ const GeneralQuestions = () => {
                     aria-expanded="false"
                     aria-controls="collapseSix"
                   >
-                    How to set up Free Email Forwarding{" "}
+                    How to set up Free Email Forwarding
                     <i className="icon icon-chevron-down"></i>
                   </a>
                 </div>
@@ -199,7 +199,7 @@ const GeneralQuestions = () => {
                     aria-expanded="false"
                     aria-controls="collapseSeven"
                   >
-                    How do I transfer a domain?{" "}
+                    How do I transfer a domain?
                     <i className="icon icon-chevron-down"></i>
                   </a>
                 </div>
@@ -227,7 +227,7 @@ const GeneralQuestions = () => {
                     aria-expanded="false"
                     aria-controls="collapseEight"
                   >
-                    How to transfer an existing hosting account?{" "}
+                    How to transfer an existing hosting account?
                     <i className="icon icon-chevron-down"></i>
                   </a>
                 </div>
@@ -256,7 +256,7 @@ const GeneralQuestions = () => {
                     aria-expanded="false"
                     aria-controls="collapseNine"
                   >
-                    How do I renew my domain?{" "}
+                    How do I renew my domain?
                     <i className="icon icon-chevron-down"></i>
                   </a>
                 </div>
@@ -284,7 +284,7 @@ const GeneralQuestions = () => {
                     aria-expanded="false"
                     aria-controls="collapseTen"
                   >
-                    How does WhoisGuard work for keep secure?{" "}
+                    How does WhoisGuard work for keep secure?
                     <i className="icon icon-chevron-down"></i>
                   </a>
                 </div>

@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 const VPSHostingDetails = () => {
   return (
@@ -38,12 +39,11 @@ const VPSHostingDetails = () => {
                   <input type="hidden" name="price" className="price xs1" />
                   <p className="desc xs2"></p>
                   <input type="hidden" name="desc" className="desc xs2" />
-                  <a
-                    className="btn btn-primary slider-btns xs12"
-                    href="http://whmcs.finesttheme.com/cart.php?a=add&pid=3"
-                  >
-                    <span className="icon icon-checkmark"></span> Purchase Now
-                  </a>
+                  <Link href="http://whmcs.finesttheme.com/cart.php?a=add&pid=3">
+                    <a className="btn btn-primary slider-btns xs12">
+                      <span className="icon icon-checkmark"></span> Purchase Now
+                    </a>
+                  </Link>
                 </div>
               </div>
               <div className="col-lg-7">

@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 const Topbar = () => {
   return (
@@ -13,24 +14,30 @@ const Topbar = () => {
                 </p>
               </li>
               <li>
-                <a href="mailto:info@domain.com">
-                  <i className="icon icon-envelope1"></i>info@domain.com
-                </a>
+                <Link href="mailto:info@domain.com">
+                  <a>
+                    <i className="icon icon-envelope1"></i>info@domain.com
+                  </a>
+                </Link>
               </li>
             </ul>
           </div>
           <div className="col-md-6">
             <ul className="top-menu">
               <li>
-                <a href="login.html">
-                  <i className="icon icon-key2"></i> Login
-                </a>
+                <Link href={"#"}>
+                  <a>
+                    <i className="icon icon-key2"></i> Login
+                  </a>
+                </Link>
               </li>
               {/* <!-- <li><a href="signup.html">Sign Up</a></li> --> */}
               <li>
-                <a href="support.html">
-                  <i className="icon icon-hours-support"></i> Support
-                </a>
+                <Link href={"#"}>
+                  <a>
+                    <i className="icon icon-hours-support"></i> Support
+                  </a>
+                </Link>
               </li>
             </ul>
           </div>

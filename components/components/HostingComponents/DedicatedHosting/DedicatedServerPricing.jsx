@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 const DedicatedServerPricing = () => {
   return (
@@ -37,9 +38,9 @@ const DedicatedServerPricing = () => {
                       </td>
                       <td>INSTANT</td>
                       <td>
-                        <a href="#" className="featured">
-                          CONFIGURE
-                        </a>
+                        <Link href="#">
+                          <a className="featured">CONFIGURE</a>
+                        </Link>
                       </td>
                     </tr>
                     <tr>
@@ -57,9 +58,9 @@ const DedicatedServerPricing = () => {
                       </td>
                       <td>INSTANT</td>
                       <td>
-                        <a href="#" className="featured">
-                          CONFIGURE
-                        </a>
+                        <Link href="#">
+                          <a className="featured">CONFIGURE</a>
+                        </Link>
                       </td>
                     </tr>
                     <tr>
@@ -78,9 +79,9 @@ const DedicatedServerPricing = () => {
                       </td>
                       <td>INSTANT</td>
                       <td>
-                        <a href="#" className="featured disabled">
-                          STOCK OUT
-                        </a>
+                        <Link href="#">
+                          <a className="featured disabled">STOCK OUT</a>
+                        </Link>
                       </td>
                     </tr>
                     <tr>
@@ -98,9 +99,9 @@ const DedicatedServerPricing = () => {
                       </td>
                       <td>INSTANT</td>
                       <td>
-                        <a href="#" className="featured">
-                          CONFIGURE
-                        </a>
+                        <Link href="#">
+                          <a className="featured">CONFIGURE</a>
+                        </Link>
                       </td>
                     </tr>
                     <tr>
@@ -118,9 +119,9 @@ const DedicatedServerPricing = () => {
                       </td>
                       <td>INSTANT</td>
                       <td>
-                        <a href="#" className="featured">
-                          CONFIGURE
-                        </a>
+                        <Link href="#">
+                          <a className="featured">CONFIGURE</a>
+                        </Link>
                       </td>
                     </tr>
                     <tr>
@@ -138,9 +139,9 @@ const DedicatedServerPricing = () => {
                       </td>
                       <td>INSTANT</td>
                       <td>
-                        <a href="#" className="featured">
-                          CONFIGURE
-                        </a>
+                        <Link href="#">
+                          <a className="featured">CONFIGURE</a>
+                        </Link>
                       </td>
                     </tr>
                     <tr>
@@ -159,9 +160,9 @@ const DedicatedServerPricing = () => {
                       </td>
                       <td>INSTANT</td>
                       <td>
-                        <a href="#" className="featured disabled">
-                          STOCK OUT
-                        </a>
+                        <Link href="#">
+                          <a className="featured disabled">STOCK OUT</a>
+                        </Link>
                       </td>
                     </tr>
                     <tr>
@@ -179,9 +180,9 @@ const DedicatedServerPricing = () => {
                       </td>
                       <td>INSTANT</td>
                       <td>
-                        <a href="#" className="featured">
-                          CONFIGURE
-                        </a>
+                        <Link href="#">
+                          <a className="featured">CONFIGURE</a>
+                        </Link>
                       </td>
                     </tr>
                     <tr>
@@ -199,9 +200,9 @@ const DedicatedServerPricing = () => {
                       </td>
                       <td>INSTANT</td>
                       <td>
-                        <a href="#" className="featured">
-                          CONFIGURE
-                        </a>
+                        <Link href="#">
+                          <a className="featured">CONFIGURE</a>
+                        </Link>
                       </td>
                     </tr>
                     <tr>
@@ -219,9 +220,9 @@ const DedicatedServerPricing = () => {
                       </td>
                       <td>INSTANT</td>
                       <td>
-                        <a href="#" className="featured">
-                          CONFIGURE
-                        </a>
+                        <Link href="#">
+                          <a className="featured">CONFIGURE</a>
+                        </Link>
                       </td>
                     </tr>
                     <tr>
@@ -240,9 +241,9 @@ const DedicatedServerPricing = () => {
                       </td>
                       <td>INSTANT</td>
                       <td>
-                        <a href="#" className="featured disabled">
-                          STOCK OUT
-                        </a>
+                        <Link href="#">
+                          <a className="featured disabled">STOCK OUT</a>
+                        </Link>
                       </td>
                     </tr>
                     <tr>
@@ -260,9 +261,9 @@ const DedicatedServerPricing = () => {
                       </td>
                       <td>INSTANT</td>
                       <td>
-                        <a href="#" className="featured">
-                          CONFIGURE
-                        </a>
+                        <Link href="#">
+                          <a className="featured">CONFIGURE</a>
+                        </Link>
                       </td>
                     </tr>
                   </tbody>

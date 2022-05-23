@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 const PreLoader = () => {
   return (
@@ -7,9 +8,9 @@ const PreLoader = () => {
         <div className="spinner"></div>
       </div>
       <div className="preloader-cancel-btn">
-        <a href="#" className="btn btn-secondary prelaoder-btn">
-          Cancel Preloader
-        </a>
+        <Link href="#">
+          <a className="btn btn-secondary prelaoder-btn">Cancel Preloader</a>
+        </Link>
       </div>
     </div>
   );

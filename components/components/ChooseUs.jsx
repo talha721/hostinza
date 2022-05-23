@@ -1,9 +1,9 @@
 import React from "react";
 import Image from "next/image";
 
-import UpTimeImage from "../../public/assets/images/chooseUs/choose-us-4.png";
-import SafeAndSecuredImage from "../../public/assets/images/chooseUs/choose-us-5.png";
-import SupportImage from "../../public/assets/images/chooseUs/choose-us-6.png";
+import UpTimeImage from "../../public/assets/images/chooseUs/choose-us-1.png";
+import SafeAndSecuredImage from "../../public/assets/images/chooseUs/choose-us-2.png";
+import SupportImage from "../../public/assets/images/chooseUs/choose-us-3.png";
 
 const ChooseUs = () => {
   return (
@@ -23,10 +23,7 @@ const ChooseUs = () => {
           <div className="col-lg-4 col-md-6">
             <div className="why-choose-us-block wow fadeInUp">
               <div className="choose-us-img">
-                <img
-                  src="assets/images/chooseUs/choose-us-1.png"
-                  alt="hostinza hosting image"
-                />
+                <Image src={UpTimeImage} alt="hostinza hosting image" />
               </div>
               <h4 className="xs-title">99.9% Uptime Guarantee</h4>
               <p>
@@ -40,10 +37,7 @@ const ChooseUs = () => {
               data-wow-duration="1.5s"
             >
               <div className="choose-us-img">
-                <img
-                  src="assets/images/chooseUs/choose-us-2.png"
-                  alt="hostinza hosting image"
-                />
+                <Image src={SafeAndSecuredImage} alt="hostinza hosting image" />
               </div>
               <h4 className="xs-title">Safe and Secured</h4>
               <p>Our team assured your web site is always safe and secure</p>
@@ -55,10 +49,7 @@ const ChooseUs = () => {
               data-wow-duration="2s"
             >
               <div className="choose-us-img">
-                <img
-                  src="assets/images/chooseUs/choose-us-3.png"
-                  alt="hostinza hosting image"
-                />
+                <Image src={SupportImage} alt="hostinza hosting image" />
               </div>
               <h4 className="xs-title">Our Dedicated Support</h4>
               <p>We finally found a host that truly understood the unique</p>

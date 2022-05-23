@@ -1,4 +1,8 @@
 import React from "react";
+import Image from "next/image";
+
+import FeatureIcon from "../../../../public/assets/images/feature-icon-1.png";
+import FeatureIcon2 from "../../../../public/assets/images/feature-icon-2.png";
 
 const Features = () => {
   return (
@@ -9,10 +13,7 @@ const Features = () => {
             <div className="xs-feature-group wow fadeInLeft">
               <div className="media">
                 <div className="feature-img d-flex">
-                  <img
-                    src="assets/images/feature-icon-1.png"
-                    alt="hosting feature img"
-                  />
+                  <Image src={FeatureIcon} alt="hosting feature img" />
                 </div>
                 <div className="media-body feature-content">
                   <h4 className="xs-title">Add Web Hosting from us</h4>
@@ -34,10 +35,7 @@ const Features = () => {
             <div className="xs-feature-group wow fadeInRight">
               <div className="media">
                 <div className="feature-img d-flex">
-                  <img
-                    src="assets/images/feature-icon-2.png"
-                    alt="hosting feature img"
-                  />
+                  <Image src={FeatureIcon2} alt="hosting feature img" />
                 </div>
                 <div className="media-body feature-content">
                   <h4 className="xs-title">Transfer your domain to us</h4>

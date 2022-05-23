@@ -33,7 +33,6 @@ const ContactForm = () => {
           <div className="col-lg-8 mx-auto">
             <div className="xs-form-group wow fadeInUp">
               <form
-                action="#"
                 method="POST"
                 id="contact-form"
                 className="xs-form"

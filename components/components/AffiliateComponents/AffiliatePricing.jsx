@@ -1,4 +1,8 @@
 import React from "react";
+import Image from "next/image";
+import Link from "next/link";
+
+import PricingFeatures from "../../../public/assets/images/pricing/pricing-feature.svg";
 
 const AffiliatePricing = () => {
   return (
@@ -20,10 +24,7 @@ const AffiliatePricing = () => {
               <div className="pricing-matrix-item">
                 <div className="d-lg-block d-md-none d-none">
                   <div className="pricing-image">
-                    <img
-                      src="assets/images/pricing/pricing-feature.svg"
-                      alt="pricing image"
-                    />
+                    <Image src={PricingFeatures} alt="pricing image" />
                   </div>
                   <div className="gap"></div>
                   <div className="pricing-feature-item">
@@ -72,9 +73,9 @@ const AffiliatePricing = () => {
                           <sup>$</sup>29
                         </h2>
                       </div>
-                      <a href="#" className="btn btn-primary">
-                        Buy Now
-                      </a>
+                      <Link href="#">
+                        <a className="btn btn-primary">Buy Now</a>
+                      </Link>
                     </div>
                   </div>
                   <div className="gap"></div>
@@ -86,13 +87,13 @@ const AffiliatePricing = () => {
                   </div>
                   <div className="pricing-feature-item">
                     <span className="pricing-feature d-lg-none d-sm-block">
-                      Total Sites{" "}
+                      Total Sites
                     </span>
                     <span className="pricing-feature">1</span>
                   </div>
                   <div className="pricing-feature-item">
                     <span className="pricing-feature d-lg-none d-sm-block">
-                      Hosting type{" "}
+                      Hosting type
                     </span>
                     <span className="pricing-feature">Shared</span>
                   </div>
@@ -111,13 +112,13 @@ const AffiliatePricing = () => {
                   <div className="gap"></div>
                   <div className="pricing-feature-item">
                     <span className="pricing-feature d-lg-none d-sm-block">
-                      Dev, Stage, Prod{" "}
+                      Dev, Stage, Prod
                     </span>
                     <span className="pricing-feature"></span>
                   </div>
                   <div className="pricing-feature-item">
                     <span className="pricing-feature d-lg-none d-sm-block">
-                      Transferable Sites{" "}
+                      Transferable Sites
                     </span>
                     <span className="pricing-feature">
                       <i className="fa fa-check"></i>
@@ -125,7 +126,7 @@ const AffiliatePricing = () => {
                   </div>
                   <div className="pricing-feature-item">
                     <span className="pricing-feature d-lg-none d-sm-block">
-                      Multisite ready{" "}
+                      Multisite ready
                     </span>
                     <span className="pricing-feature">
                       <i className="fa fa-check"></i>
@@ -133,13 +134,13 @@ const AffiliatePricing = () => {
                   </div>
                   <div className="pricing-feature-item">
                     <span className="pricing-feature d-lg-none d-sm-block">
-                      PHP 7 ready{" "}
+                      PHP 7 ready
                     </span>
                     <span className="pricing-feature"></span>
                   </div>
                   <div className="pricing-feature-item">
                     <span className="pricing-feature d-lg-none d-sm-block">
-                      LargeFS{" "}
+                      LargeFS
                     </span>
                     <span className="pricing-feature"></span>
                   </div>
@@ -154,9 +155,9 @@ const AffiliatePricing = () => {
                           <sup>$</sup>39
                         </h2>
                       </div>
-                      <a href="#" className="btn btn-primary">
-                        Buy Now
-                      </a>
+                      <Link href="#">
+                        <a className="btn btn-primary">Buy Now</a>
+                      </Link>
                     </div>
                   </div>
                   <div className="gap"></div>
@@ -168,13 +169,13 @@ const AffiliatePricing = () => {
                   </div>
                   <div className="pricing-feature-item">
                     <span className="pricing-feature d-lg-none d-sm-block">
-                      Total Sites{" "}
+                      Total Sites
                     </span>
                     <span className="pricing-feature">3</span>
                   </div>
                   <div className="pricing-feature-item">
                     <span className="pricing-feature d-lg-none d-sm-block">
-                      Hosting type{" "}
+                      Hosting type
                     </span>
                     <span className="pricing-feature">Shared</span>
                   </div>
@@ -193,7 +194,7 @@ const AffiliatePricing = () => {
                   <div className="gap"></div>
                   <div className="pricing-feature-item">
                     <span className="pricing-feature d-lg-none d-sm-block">
-                      Dev, Stage, Prod{" "}
+                      Dev, Stage, Prod
                     </span>
                     <span className="pricing-feature">
                       <i className="fa fa-check"></i>
@@ -201,7 +202,7 @@ const AffiliatePricing = () => {
                   </div>
                   <div className="pricing-feature-item">
                     <span className="pricing-feature d-lg-none d-sm-block">
-                      Transferable Sites{" "}
+                      Transferable Sites
                     </span>
                     <span className="pricing-feature">
                       <i className="fa fa-check"></i>
@@ -209,7 +210,7 @@ const AffiliatePricing = () => {
                   </div>
                   <div className="pricing-feature-item">
                     <span className="pricing-feature d-lg-none d-sm-block">
-                      Multisite ready{" "}
+                      Multisite ready
                     </span>
                     <span className="pricing-feature">
                       <i className="fa fa-check"></i>
@@ -217,7 +218,7 @@ const AffiliatePricing = () => {
                   </div>
                   <div className="pricing-feature-item">
                     <span className="pricing-feature d-lg-none d-sm-block">
-                      PHP 7 ready{" "}
+                      PHP 7 ready
                     </span>
                     <span className="pricing-feature">
                       <i className="fa fa-check"></i>
@@ -225,7 +226,7 @@ const AffiliatePricing = () => {
                   </div>
                   <div className="pricing-feature-item">
                     <span className="pricing-feature d-lg-none d-sm-block">
-                      LargeFS{" "}
+                      LargeFS
                     </span>
                     <span className="pricing-feature">
                       <i className="fa fa-check"></i>
@@ -242,9 +243,9 @@ const AffiliatePricing = () => {
                           <sup>$</sup>49
                         </h2>
                       </div>
-                      <a href="#" className="btn btn-primary">
-                        Buy Now
-                      </a>
+                      <Link href="#">
+                        <a className="btn btn-primary">Buy Now</a>
+                      </Link>
                     </div>
                   </div>
                   <div className="gap"></div>
@@ -256,13 +257,13 @@ const AffiliatePricing = () => {
                   </div>
                   <div className="pricing-feature-item">
                     <span className="pricing-feature d-lg-none d-sm-block">
-                      Total Sites{" "}
+                      Total Sites
                     </span>
                     <span className="pricing-feature">5</span>
                   </div>
                   <div className="pricing-feature-item">
                     <span className="pricing-feature d-lg-none d-sm-block">
-                      Hosting type{" "}
+                      Hosting type
                     </span>
                     <span className="pricing-feature">Shared</span>
                   </div>
@@ -281,7 +282,7 @@ const AffiliatePricing = () => {
                   <div className="gap"></div>
                   <div className="pricing-feature-item">
                     <span className="pricing-feature d-lg-none d-sm-block">
-                      Dev, Stage, Prod{" "}
+                      Dev, Stage, Prod
                     </span>
                     <span className="pricing-feature">
                       <i className="fa fa-check"></i>
@@ -289,7 +290,7 @@ const AffiliatePricing = () => {
                   </div>
                   <div className="pricing-feature-item">
                     <span className="pricing-feature d-lg-none d-sm-block">
-                      Transferable Sites{" "}
+                      Transferable Sites
                     </span>
                     <span className="pricing-feature">
                       <i className="fa fa-check"></i>
@@ -297,7 +298,7 @@ const AffiliatePricing = () => {
                   </div>
                   <div className="pricing-feature-item">
                     <span className="pricing-feature d-lg-none d-sm-block">
-                      Multisite ready{" "}
+                      Multisite ready
                     </span>
                     <span className="pricing-feature">
                       <i className="fa fa-check"></i>
@@ -305,7 +306,7 @@ const AffiliatePricing = () => {
                   </div>
                   <div className="pricing-feature-item">
                     <span className="pricing-feature d-lg-none d-sm-block">
-                      PHP 7 ready{" "}
+                      PHP 7 ready
                     </span>
                     <span className="pricing-feature">
                       <i className="fa fa-check"></i>
@@ -313,7 +314,7 @@ const AffiliatePricing = () => {
                   </div>
                   <div className="pricing-feature-item">
                     <span className="pricing-feature d-lg-none d-sm-block">
-                      LargeFS{" "}
+                      LargeFS
                     </span>
                     <span className="pricing-feature">
                       <i className="fa fa-check"></i>

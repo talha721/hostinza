@@ -1,5 +1,17 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
+
+import SheildImage2 from "../../public/assets/images/sheild-2.png";
+import ClockLock2 from "../../public/assets/images/cloud-lock-2.png";
+import AddressPin from "../../public/assets/images/address-pin.png";
+import PhonePin from "../../public/assets/images/phone-pin.png";
+import EmailIcon from "../../public/assets/images/email-icon.png";
+import SecurityCompanyImage1 from "../../public/assets/images/security/security-company-images-1.png";
+import SecurityCompanyImage2 from "../../public/assets/images/security/security-company-images-2.png";
+import SecurityCompanyImage3 from "../../public/assets/images/security/security-company-images-3.png";
+import SecurityCompanyImage4 from "../../public/assets/images/security/security-company-images-4.png";
+import FooterLogo from "../../public/assets/images/footer-logo.png";
 
 const Footer = () => {
   return (
@@ -11,10 +23,7 @@ const Footer = () => {
               <div className="xs-feature-group wow fadeInLeft">
                 <div className="media">
                   <div className="feature-img d-flex">
-                    <img
-                      src="assets/images/sheild-2.png"
-                      alt="hosting feature img"
-                    />
+                    <Image src={SheildImage2} alt="hosting feature img" />
                   </div>
                   <div className="media-body feature-content">
                     <h4 className="xs-title">Days money back guarantee</h4>
@@ -23,9 +32,9 @@ const Footer = () => {
                       to know basis without the need.
                     </p>
                     <div className="xs-btn-wraper">
-                      <a href="#" className="btn btn-primary">
-                        Know More
-                      </a>
+                      <Link href="#">
+                        <a className="btn btn-primary">Know More</a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -35,10 +44,7 @@ const Footer = () => {
               <div className="xs-feature-group wow fadeInRight">
                 <div className="media">
                   <div className="feature-img d-flex">
-                    <img
-                      src="assets/images/cloud-lock-2.png"
-                      alt="hosting feature img"
-                    />
+                    <Image src={ClockLock2} alt="hosting feature img" />
                   </div>
                   <div className="media-body feature-content">
                     <h4 className="xs-title">Build and protect your brand</h4>
@@ -47,9 +53,9 @@ const Footer = () => {
                       to know basis without the need.
                     </p>
                     <div className="xs-btn-wraper">
-                      <a href="#" className="btn btn-primary">
-                        Know More
-                      </a>
+                      <Link href="#">
+                        <a className="btn btn-primary">Know More</a>
+                      </Link>
                     </div>
                   </div>
                 </div>
@@ -70,22 +76,22 @@ const Footer = () => {
                   <h3 className="widget-title">Services</h3>
                   <ul className="xs-list">
                     <li>
-                      <a href="shared-hosting.html">Shared Hosting</a>
+                      <Link href="/shared-hosting">Shared Hosting</Link>
                     </li>
                     <li>
-                      <a href="reseller-hosting.html">Reseller Hosting</a>
+                      <Link href="/reseller-hosting">Reseller Hosting</Link>
                     </li>
                     <li>
-                      <a href="vps-hosting.html">VPS Hosting</a>
+                      <Link href="/vps-hosting">VPS Hosting</Link>
                     </li>
                     <li>
-                      <a href="cloud-hosting.html">Cloud Hosting</a>
+                      <Link href="/cloud-hosting">Cloud Hosting</Link>
                     </li>
                     <li>
-                      <a href="dedicated-hosting.html">Dedicated Hosting</a>
+                      <Link href="/dedicated-hosting">Dedicated Hosting</Link>
                     </li>
                     <li>
-                      <a href="domain.html">Domain Name</a>
+                      <Link href="/domains">Domain Name</Link>
                     </li>
                   </ul>
                 </div>
@@ -98,22 +104,22 @@ const Footer = () => {
                   <h3 className="widget-title">Company</h3>
                   <ul className="xs-list">
                     <li>
-                      <a href="about.html">About us</a>
+                      <Link href="/about">About us</Link>
                     </li>
                     <li>
-                      <a href="contact.html">Contact</a>
+                      <Link href="/contact">Contact</Link>
                     </li>
                     <li>
-                      <a href="support.html">Support</a>
+                      <Link href="/faqs">Support</Link>
                     </li>
                     <li>
-                      <a href="blog.html">Latest Blog</a>
+                      <Link href="#">Latest Blog</Link>
                     </li>
                     <li>
-                      <a href="pricing.html">Pricing</a>
+                      <Link href="#">Pricing</Link>
                     </li>
                     <li>
-                      <a href="affiliate.html">Affiliate</a>
+                      <Link href="/affiliate">Affiliate</Link>
                     </li>
                   </ul>
                 </div>
@@ -126,19 +132,19 @@ const Footer = () => {
                   <h3 className="widget-title">Solutions</h3>
                   <ul className="xs-list">
                     <li>
-                      <a href="who-is.html">Who Is</a>
+                      <Link href="/who-is">Who Is</Link>
                     </li>
                     <li>
-                      <a href="terms.html">Terms of Service</a>
+                      <Link href="/terms">Terms of Service</Link>
                     </li>
                     <li>
-                      <a href="privacy.html">Privacy Policy</a>
+                      <Link href="#">Privacy Policy</Link>
                     </li>
                     <li>
-                      <a href="faq.html">FAQ</a>
+                      <Link href="/faqs">FAQ</Link>
                     </li>
                     <li>
-                      <a href="login.html">Log In</a>
+                      <Link href="#">Log In</Link>
                     </li>
                   </ul>
                 </div>
@@ -151,32 +157,32 @@ const Footer = () => {
                   <h3 className="widget-title">Contact Info</h3>
                   <ul className="contact-info-widget">
                     <li className="media">
-                      <img
-                        src="assets/images/address-pin.png"
+                      <Image
+                        src={AddressPin}
                         className="d-flex"
                         alt="contact icon"
                       />
-                      <span className="media-body">
+                      <span className="media-body ml-3">
                         9/4c, 1010 Avenue, NY, USA
                       </span>
                     </li>
                     <li className="media">
-                      <img
-                        src="assets/images/phone-pin.png"
+                      <Image
+                        src={PhonePin}
                         className="d-flex"
                         alt="contact icon"
                       />
-                      <span className="media-body">
+                      <span className="media-body ml-3">
                         009-215-5596 (toll free) 009-215-5596
                       </span>
                     </li>
                     <li className="media">
-                      <img
-                        src="assets/images/email-icon.png"
+                      <Image
+                        src={EmailIcon}
                         className="d-flex"
                         alt="contact icon"
                       />
-                      <span className="media-body">
+                      <span className="media-body ml-3">
                         9/4c, 1010 Avenue, NY, USA
                       </span>
                     </li>
@@ -193,8 +199,8 @@ const Footer = () => {
                 <div className="footer-bottom-info wow fadeInUp">
                   <p>
                     Offers valid for a limited time onlyand reflect multi annual
-                    discounts. Other terms and conditions may apply.
-                    <a href="#">Click Here</a>
+                    discounts. Other terms and conditions may apply.{" "}
+                    <Link href="#">Click Here</Link>
                   </p>
                 </div>
               </div>
@@ -204,26 +210,26 @@ const Footer = () => {
                   data-wow-duration="1s"
                 >
                   <li>
-                    <img
-                      src="assets/images/security/security-company-images-1.png"
+                    <Image
+                      src={SecurityCompanyImage1}
                       alt="security company images"
                     />
                   </li>
                   <li>
-                    <img
-                      src="assets/images/security/security-company-images-2.png"
+                    <Image
+                      src={SecurityCompanyImage2}
                       alt="security company images"
                     />
                   </li>
                   <li>
-                    <img
-                      src="assets/images/security/security-company-images-3.png"
+                    <Image
+                      src={SecurityCompanyImage3}
                       alt="security company images"
                     />
                   </li>
                   <li>
-                    <img
-                      src="assets/images/security/security-company-images-4.png"
+                    <Image
+                      src={SecurityCompanyImage4}
                       alt="security company images"
                     />
                   </li>
@@ -239,10 +245,10 @@ const Footer = () => {
             <div className="col-md-4">
               <div className="copyright-text wow fadeInUp">
                 <p>
-                  &copy; 2018 <a href="#">Hostinza</a> Theme by
-                  <a href="https://themeforest.net/user/xpeedstudio">
+                  &copy; 2018 <Link href="#">Hostinza</Link> Theme by{" "}
+                  <Link href="https://themeforest.net/user/xpeedstudio">
                     Xpeed Studio
-                  </a>
+                  </Link>
                 </p>
               </div>
             </div>
@@ -251,9 +257,11 @@ const Footer = () => {
                 className="footer-logo-wraper wow fadeInUp"
                 data-wow-duration="1s"
               >
-                <a href="index.html" className="footer-logo">
-                  <img src="assets/images/footer-logo.png" alt="footer logo" />
-                </a>
+                <Link href="/">
+                  <a className="footer-logo">
+                    <Image src={FooterLogo} alt="footer logo" />
+                  </a>
+                </Link>
               </div>
             </div>
             <div className="col-md-4">
@@ -263,29 +271,39 @@ const Footer = () => {
               >
                 <ul className="social-list">
                   <li>
-                    <a href="#" className="facebook">
-                      <i className="fa fa-facebook"></i>
-                    </a>
+                    <Link href="#">
+                      <a className="facebook">
+                        <i className="fa fa-facebook"></i>
+                      </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="#" className="twitter">
-                      <i className="fa fa-twitter"></i>
-                    </a>
+                    <Link href="#">
+                      <a className="twitter">
+                        <i className="fa fa-twitter"></i>
+                      </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="#" className="linkedin">
-                      <i className="fa fa-linkedin"></i>
-                    </a>
+                    <Link href="#">
+                      <a className="linkedin">
+                        <i className="fa fa-linkedin"></i>
+                      </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="#" className="instagram">
-                      <i className="fa fa-instagram"></i>
-                    </a>
+                    <Link href="#">
+                      <a className="instagram">
+                        <i className="fa fa-instagram"></i>
+                      </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="#" className="googlePlus">
-                      <i className="fa fa-google-plus"></i>
-                    </a>
+                    <Link href="#">
+                      <a className="googlePlus">
+                        <i className="fa fa-google-plus"></i>
+                      </a>
+                    </Link>
                   </li>
                 </ul>
               </div>

@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 import PricingFeatureImage from "../../../public/assets/images/pricing/pricing-feature.svg";
 
@@ -49,7 +50,7 @@ const Pricing = () => {
                   </div>
                   <div className="pricing-feature-item">
                     <span className="pricing-feature">
-                      Consultative onboarding{" "}
+                      Consultative onboarding
                     </span>
                   </div>
                   <div className="gap"></div>
@@ -82,9 +83,7 @@ const Pricing = () => {
                     <span className="pricing-feature">GeoTarget </span>
                   </div>
                   <div className="pricing-feature-item">
-                    <span className="pricing-feature">
-                      Content Performance{" "}
-                    </span>
+                    <span className="pricing-feature">Content Performance</span>
                   </div>
                   <div className="gap"></div>
                   <div className="pricing-feature-item">
@@ -92,7 +91,7 @@ const Pricing = () => {
                   </div>
                   <div className="pricing-feature-item">
                     <span className="pricing-feature">
-                      Readiness assessment{" "}
+                      Readiness assessment
                     </span>
                   </div>
                   <div className="pricing-feature-item">
@@ -122,9 +121,9 @@ const Pricing = () => {
                           <sup>$</sup>29
                         </h2>
                       </div>
-                      <a href="#" className="btn btn-primary">
-                        Buy Now
-                      </a>
+                      <Link href="#">
+                        <a className="btn btn-primary">Buy Now</a>
+                      </Link>
                     </div>
                   </div>
                   <div className="gap"></div>
@@ -136,13 +135,13 @@ const Pricing = () => {
                   </div>
                   <div className="pricing-feature-item">
                     <span className="pricing-feature d-lg-none d-sm-block">
-                      Total Sites{" "}
+                      Total Sites
                     </span>
                     <span className="pricing-feature">1</span>
                   </div>
                   <div className="pricing-feature-item">
                     <span className="pricing-feature d-lg-none d-sm-block">
-                      Hosting type{" "}
+                      Hosting type
                     </span>
                     <span className="pricing-feature">Shared</span>
                   </div>
@@ -166,7 +165,7 @@ const Pricing = () => {
                   </div>
                   <div className="pricing-feature-item">
                     <span className="pricing-feature d-lg-none d-sm-block">
-                      24/7 phone support{" "}
+                      24/7 phone support
                     </span>
                     <span className="pricing-feature">
                       <i className="fa fa-check"></i>
@@ -174,20 +173,20 @@ const Pricing = () => {
                   </div>
                   <div className="pricing-feature-item">
                     <span className="pricing-feature d-lg-none d-sm-block">
-                      Consultative onboarding{" "}
+                      Consultative onboarding
                     </span>
                     <span className="pricing-feature"></span>
                   </div>
                   <div className="gap"></div>
                   <div className="pricing-feature-item">
                     <span className="pricing-feature d-lg-none d-sm-block">
-                      Dev, Stage, Prod{" "}
+                      Dev, Stage, Prod
                     </span>
                     <span className="pricing-feature"></span>
                   </div>
                   <div className="pricing-feature-item">
                     <span className="pricing-feature d-lg-none d-sm-block">
-                      Transferable Sites{" "}
+                      Transferable Sites
                     </span>
                     <span className="pricing-feature">
                       <i className="fa fa-check"></i>
@@ -195,7 +194,7 @@ const Pricing = () => {
                   </div>
                   <div className="pricing-feature-item">
                     <span className="pricing-feature d-lg-none d-sm-block">
-                      Multisite ready{" "}
+                      Multisite ready
                     </span>
                     <span className="pricing-feature">
                       <i className="fa fa-check"></i>
@@ -203,20 +202,20 @@ const Pricing = () => {
                   </div>
                   <div className="pricing-feature-item">
                     <span className="pricing-feature d-lg-none d-sm-block">
-                      PHP 7 ready{" "}
+                      PHP 7 ready
                     </span>
                     <span className="pricing-feature"></span>
                   </div>
                   <div className="pricing-feature-item">
                     <span className="pricing-feature d-lg-none d-sm-block">
-                      LargeFS{" "}
+                      LargeFS
                     </span>
                     <span className="pricing-feature"></span>
                   </div>
                   <div className="gap"></div>
                   <div className="pricing-feature-item">
                     <span className="pricing-feature d-lg-none d-sm-block">
-                      Global CDN{" "}
+                      Global CDN
                     </span>
                     <span className="pricing-feature">
                       <i className="fa fa-check"></i>
@@ -224,7 +223,7 @@ const Pricing = () => {
                   </div>
                   <div className="pricing-feature-item">
                     <span className="pricing-feature d-lg-none d-sm-block">
-                      Page Performance{" "}
+                      Page Performance
                     </span>
                     <span className="pricing-feature">
                       <i className="fa fa-check"></i>
@@ -232,19 +231,19 @@ const Pricing = () => {
                   </div>
                   <div className="pricing-feature-item">
                     <span className="pricing-feature d-lg-none d-sm-block">
-                      SSL certificates{" "}
+                      SSL certificates
                     </span>
                     <span className="pricing-feature"></span>
                   </div>
                   <div className="pricing-feature-item">
                     <span className="pricing-feature d-lg-none d-sm-block">
-                      GeoTarget{" "}
+                      GeoTarget
                     </span>
                     <span className="pricing-feature">Add On</span>
                   </div>
                   <div className="pricing-feature-item">
                     <span className="pricing-feature d-lg-none d-sm-block">
-                      Content Performance{" "}
+                      Content Performance
                     </span>
                     <span className="pricing-feature"></span>
                   </div>
@@ -257,7 +256,7 @@ const Pricing = () => {
                   </div>
                   <div className="pricing-feature-item">
                     <span className="pricing-feature d-lg-none d-sm-block">
-                      Readiness assessment{" "}
+                      Readiness assessment
                     </span>
                     <span className="pricing-feature">
                       <i className="fa fa-check"></i>
@@ -282,7 +281,7 @@ const Pricing = () => {
                   </div>
                   <div className="pricing-feature-item">
                     <span className="pricing-feature d-lg-none d-sm-block">
-                      High availability{" "}
+                      High availability
                     </span>
                     <span className="pricing-feature"></span>
                   </div>
@@ -297,9 +296,9 @@ const Pricing = () => {
                           <sup>$</sup>39
                         </h2>
                       </div>
-                      <a href="#" className="btn btn-primary">
-                        Buy Now
-                      </a>
+                      <Link href="#">
+                        <a className="btn btn-primary">Buy Now</a>
+                      </Link>
                     </div>
                   </div>
                   <div className="gap"></div>
@@ -311,13 +310,13 @@ const Pricing = () => {
                   </div>
                   <div className="pricing-feature-item">
                     <span className="pricing-feature d-lg-none d-sm-block">
-                      Total Sites{" "}
+                      Total Sites
                     </span>
                     <span className="pricing-feature">3</span>
                   </div>
                   <div className="pricing-feature-item">
                     <span className="pricing-feature d-lg-none d-sm-block">
-                      Hosting type{" "}
+                      Hosting type
                     </span>
                     <span className="pricing-feature">Shared</span>
                   </div>
@@ -343,7 +342,7 @@ const Pricing = () => {
                   </div>
                   <div className="pricing-feature-item">
                     <span className="pricing-feature d-lg-none d-sm-block">
-                      24/7 phone support{" "}
+                      24/7 phone support
                     </span>
                     <span className="pricing-feature">
                       <i className="fa fa-check"></i>
@@ -351,14 +350,14 @@ const Pricing = () => {
                   </div>
                   <div className="pricing-feature-item">
                     <span className="pricing-feature d-lg-none d-sm-block">
-                      Consultative onboarding{" "}
+                      Consultative onboarding
                     </span>
                     <span className="pricing-feature"></span>
                   </div>
                   <div className="gap"></div>
                   <div className="pricing-feature-item">
                     <span className="pricing-feature d-lg-none d-sm-block">
-                      Dev, Stage, Prod{" "}
+                      Dev, Stage, Prod
                     </span>
                     <span className="pricing-feature">
                       <i className="fa fa-check"></i>
@@ -366,7 +365,7 @@ const Pricing = () => {
                   </div>
                   <div className="pricing-feature-item">
                     <span className="pricing-feature d-lg-none d-sm-block">
-                      Transferable Sites{" "}
+                      Transferable Sites
                     </span>
                     <span className="pricing-feature">
                       <i className="fa fa-check"></i>
@@ -374,7 +373,7 @@ const Pricing = () => {
                   </div>
                   <div className="pricing-feature-item">
                     <span className="pricing-feature d-lg-none d-sm-block">
-                      Multisite ready{" "}
+                      Multisite ready
                     </span>
                     <span className="pricing-feature">
                       <i className="fa fa-check"></i>
@@ -382,7 +381,7 @@ const Pricing = () => {
                   </div>
                   <div className="pricing-feature-item">
                     <span className="pricing-feature d-lg-none d-sm-block">
-                      PHP 7 ready{" "}
+                      PHP 7 ready
                     </span>
                     <span className="pricing-feature">
                       <i className="fa fa-check"></i>
@@ -390,7 +389,7 @@ const Pricing = () => {
                   </div>
                   <div className="pricing-feature-item">
                     <span className="pricing-feature d-lg-none d-sm-block">
-                      LargeFS{" "}
+                      LargeFS
                     </span>
                     <span className="pricing-feature">
                       <i className="fa fa-check"></i>
@@ -399,7 +398,7 @@ const Pricing = () => {
                   <div className="gap"></div>
                   <div className="pricing-feature-item">
                     <span className="pricing-feature d-lg-none d-sm-block">
-                      Global CDN{" "}
+                      Global CDN
                     </span>
                     <span className="pricing-feature">
                       <i className="fa fa-check"></i>
@@ -407,13 +406,13 @@ const Pricing = () => {
                   </div>
                   <div className="pricing-feature-item">
                     <span className="pricing-feature d-lg-none d-sm-block">
-                      Page Performance{" "}
+                      Page Performance
                     </span>
                     <span className="pricing-feature"></span>
                   </div>
                   <div className="pricing-feature-item">
                     <span className="pricing-feature d-lg-none d-sm-block">
-                      SSL certificates{" "}
+                      SSL certificates
                     </span>
                     <span className="pricing-feature">
                       <i className="fa fa-check"></i>
@@ -421,13 +420,13 @@ const Pricing = () => {
                   </div>
                   <div className="pricing-feature-item">
                     <span className="pricing-feature d-lg-none d-sm-block">
-                      GeoTarget{" "}
+                      GeoTarget
                     </span>
                     <span className="pricing-feature">Add On</span>
                   </div>
                   <div className="pricing-feature-item">
                     <span className="pricing-feature d-lg-none d-sm-block">
-                      Content Performance{" "}
+                      Content Performance
                     </span>
                     <span className="pricing-feature">Add On</span>
                   </div>
@@ -442,7 +441,7 @@ const Pricing = () => {
                   </div>
                   <div className="pricing-feature-item">
                     <span className="pricing-feature d-lg-none d-sm-block">
-                      Readiness assessment{" "}
+                      Readiness assessment
                     </span>
                     <span className="pricing-feature">Limited</span>
                   </div>
@@ -465,7 +464,7 @@ const Pricing = () => {
                   </div>
                   <div className="pricing-feature-item">
                     <span className="pricing-feature d-lg-none d-sm-block">
-                      High availability{" "}
+                      High availability
                     </span>
                     <span className="pricing-feature">
                       <i className="fa fa-check"></i>
@@ -482,9 +481,9 @@ const Pricing = () => {
                           <sup>$</sup>49
                         </h2>
                       </div>
-                      <a href="#" className="btn btn-primary">
-                        Buy Now
-                      </a>
+                      <Link href="#">
+                        <a className="btn btn-primary">Buy Now</a>
+                      </Link>
                     </div>
                   </div>
                   <div className="gap"></div>
@@ -496,13 +495,13 @@ const Pricing = () => {
                   </div>
                   <div className="pricing-feature-item">
                     <span className="pricing-feature d-lg-none d-sm-block">
-                      Total Sites{" "}
+                      Total Sites
                     </span>
                     <span className="pricing-feature">5</span>
                   </div>
                   <div className="pricing-feature-item">
                     <span className="pricing-feature d-lg-none d-sm-block">
-                      Hosting type{" "}
+                      Hosting type
                     </span>
                     <span className="pricing-feature">Shared</span>
                   </div>
@@ -528,7 +527,7 @@ const Pricing = () => {
                   </div>
                   <div className="pricing-feature-item">
                     <span className="pricing-feature d-lg-none d-sm-block">
-                      24/7 phone support{" "}
+                      24/7 phone support
                     </span>
                     <span className="pricing-feature">
                       <i className="fa fa-check"></i>
@@ -536,48 +535,7 @@ const Pricing = () => {
                   </div>
                   <div className="pricing-feature-item">
                     <span className="pricing-feature d-lg-none d-sm-block">
-                      Consultative onboarding{" "}
-                    </span>
-                    <span className="pricing-feature">
-                      <i className="fa fa-check"></i>
-                    </span>
-                  </div>
-                  <div className="gap"></div>
-                  <div className="pricing-feature-item">
-                    <span className="pricing-feature d-lg-none d-sm-block">
-                      Dev, Stage, Prod{" "}
-                    </span>
-                    <span className="pricing-feature">
-                      <i className="fa fa-check"></i>
-                    </span>
-                  </div>
-                  <div className="pricing-feature-item">
-                    <span className="pricing-feature d-lg-none d-sm-block">
-                      Transferable Sites{" "}
-                    </span>
-                    <span className="pricing-feature">
-                      <i className="fa fa-check"></i>
-                    </span>
-                  </div>
-                  <div className="pricing-feature-item">
-                    <span className="pricing-feature d-lg-none d-sm-block">
-                      Multisite ready{" "}
-                    </span>
-                    <span className="pricing-feature">
-                      <i className="fa fa-check"></i>
-                    </span>
-                  </div>
-                  <div className="pricing-feature-item">
-                    <span className="pricing-feature d-lg-none d-sm-block">
-                      PHP 7 ready{" "}
-                    </span>
-                    <span className="pricing-feature">
-                      <i className="fa fa-check"></i>
-                    </span>
-                  </div>
-                  <div className="pricing-feature-item">
-                    <span className="pricing-feature d-lg-none d-sm-block">
-                      LargeFS{" "}
+                      Consultative onboarding
                     </span>
                     <span className="pricing-feature">
                       <i className="fa fa-check"></i>
@@ -586,7 +544,7 @@ const Pricing = () => {
                   <div className="gap"></div>
                   <div className="pricing-feature-item">
                     <span className="pricing-feature d-lg-none d-sm-block">
-                      Global CDN{" "}
+                      Dev, Stage, Prod
                     </span>
                     <span className="pricing-feature">
                       <i className="fa fa-check"></i>
@@ -594,13 +552,54 @@ const Pricing = () => {
                   </div>
                   <div className="pricing-feature-item">
                     <span className="pricing-feature d-lg-none d-sm-block">
-                      Page Performance{" "}
+                      Transferable Sites
+                    </span>
+                    <span className="pricing-feature">
+                      <i className="fa fa-check"></i>
+                    </span>
+                  </div>
+                  <div className="pricing-feature-item">
+                    <span className="pricing-feature d-lg-none d-sm-block">
+                      Multisite ready
+                    </span>
+                    <span className="pricing-feature">
+                      <i className="fa fa-check"></i>
+                    </span>
+                  </div>
+                  <div className="pricing-feature-item">
+                    <span className="pricing-feature d-lg-none d-sm-block">
+                      PHP 7 ready
+                    </span>
+                    <span className="pricing-feature">
+                      <i className="fa fa-check"></i>
+                    </span>
+                  </div>
+                  <div className="pricing-feature-item">
+                    <span className="pricing-feature d-lg-none d-sm-block">
+                      LargeFS
+                    </span>
+                    <span className="pricing-feature">
+                      <i className="fa fa-check"></i>
+                    </span>
+                  </div>
+                  <div className="gap"></div>
+                  <div className="pricing-feature-item">
+                    <span className="pricing-feature d-lg-none d-sm-block">
+                      Global CDN
+                    </span>
+                    <span className="pricing-feature">
+                      <i className="fa fa-check"></i>
+                    </span>
+                  </div>
+                  <div className="pricing-feature-item">
+                    <span className="pricing-feature d-lg-none d-sm-block">
+                      Page Performance
                     </span>
                     <span className="pricing-feature"></span>
                   </div>
                   <div className="pricing-feature-item">
                     <span className="pricing-feature d-lg-none d-sm-block">
-                      SSL certificates{" "}
+                      SSL certificates
                     </span>
                     <span className="pricing-feature">
                       <i className="fa fa-check"></i>
@@ -608,13 +607,13 @@ const Pricing = () => {
                   </div>
                   <div className="pricing-feature-item">
                     <span className="pricing-feature d-lg-none d-sm-block">
-                      GeoTarget{" "}
+                      GeoTarget
                     </span>
                     <span className="pricing-feature">Add On</span>
                   </div>
                   <div className="pricing-feature-item">
                     <span className="pricing-feature d-lg-none d-sm-block">
-                      Content Performance{" "}
+                      Content Performance
                     </span>
                     <span className="pricing-feature">Add On</span>
                   </div>
@@ -629,7 +628,7 @@ const Pricing = () => {
                   </div>
                   <div className="pricing-feature-item">
                     <span className="pricing-feature d-lg-none d-sm-block">
-                      Readiness assessment{" "}
+                      Readiness assessment
                     </span>
                     <span className="pricing-feature">Unlimited</span>
                   </div>
@@ -652,7 +651,7 @@ const Pricing = () => {
                   </div>
                   <div className="pricing-feature-item">
                     <span className="pricing-feature d-lg-none d-sm-block">
-                      High availability{" "}
+                      High availability
                     </span>
                     <span className="pricing-feature">
                       <i className="fa fa-check"></i>

@@ -1,4 +1,14 @@
 import React from "react";
+import Image from "next/image";
+
+import ComDomainImage from "../../../../public/assets/images/domain/com.png";
+import MeDomainImage from "../../../../public/assets/images/domain/me.png";
+import BizDomainImage from "../../../../public/assets/images/domain/biz.png";
+import CoDomainImage from "../../../../public/assets/images/domain/co.png";
+import NetDomainImage from "../../../../public/assets/images/domain/net.png";
+import InfoDomainImage from "../../../../public/assets/images/domain/info.png";
+import StoreDomainImage from "../../../../public/assets/images/domain/store.png";
+import MobiDomainImage from "../../../../public/assets/images/domain/mobi.png";
 
 const DomainPricing = () => {
   return (
@@ -27,10 +37,7 @@ const DomainPricing = () => {
             <tbody>
               <tr>
                 <th scope="row">
-                  <img
-                    src="assets/images/domain/com.png"
-                    alt="domain name com icon"
-                  />
+                  <Image src={ComDomainImage} alt="domain name com icon" />
                 </th>
                 <td>
                   $19.95 <del>$29.95</del>
@@ -40,10 +47,7 @@ const DomainPricing = () => {
               </tr>
               <tr>
                 <th scope="row">
-                  <img
-                    src="assets/images/domain/me.png"
-                    alt="domain name me icon"
-                  />
+                  <Image src={MeDomainImage} alt="domain name me icon" />
                 </th>
                 <td>$16.95</td>
                 <td>$16.95</td>
@@ -51,10 +55,7 @@ const DomainPricing = () => {
               </tr>
               <tr>
                 <th scope="row">
-                  <img
-                    src="assets/images/domain/biz.png"
-                    alt="domain name biz icon"
-                  />
+                  <Image src={BizDomainImage} alt="domain name biz icon" />
                 </th>
                 <td>$09.95</td>
                 <td>$09.95</td>
@@ -62,10 +63,7 @@ const DomainPricing = () => {
               </tr>
               <tr>
                 <th scope="row">
-                  <img
-                    src="assets/images/domain/co.png"
-                    alt="domain name co icon"
-                  />
+                  <Image src={CoDomainImage} alt="domain name co icon" />
                 </th>
                 <td>$15.95</td>
                 <td>$15.95</td>
@@ -73,10 +71,7 @@ const DomainPricing = () => {
               </tr>
               <tr>
                 <th scope="row">
-                  <img
-                    src="assets/images/domain/net.png"
-                    alt="domain name net icon"
-                  />
+                  <Image src={NetDomainImage} alt="domain name net icon" />
                 </th>
                 <td>$19.95</td>
                 <td>$19.95</td>
@@ -84,10 +79,7 @@ const DomainPricing = () => {
               </tr>
               <tr>
                 <th scope="row">
-                  <img
-                    src="assets/images/domain/info.png"
-                    alt="domain name info icon"
-                  />
+                  <Image src={InfoDomainImage} alt="domain name info icon" />
                 </th>
                 <td>
                   $14.95 <del>$29.95</del>
@@ -97,10 +89,7 @@ const DomainPricing = () => {
               </tr>
               <tr>
                 <th scope="row">
-                  <img
-                    src="assets/images/domain/store.png"
-                    alt="domain name store icon"
-                  />
+                  <Image src={StoreDomainImage} alt="domain name store icon" />
                 </th>
                 <td>$16.95</td>
                 <td>$16.95</td>
@@ -108,10 +97,7 @@ const DomainPricing = () => {
               </tr>
               <tr>
                 <th scope="row">
-                  <img
-                    src="assets/images/domain/mobi.png"
-                    alt="domain name mobi icon"
-                  />
+                  <Image src={MobiDomainImage} alt="domain name mobi icon" />
                 </th>
                 <td>$18.95</td>
                 <td>$18.95</td>

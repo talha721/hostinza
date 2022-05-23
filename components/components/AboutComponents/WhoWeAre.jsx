@@ -1,4 +1,8 @@
 import React from "react";
+import Image from "next/image";
+import Link from "next/link";
+
+import VideoPopup from "../../../public/assets/images/video-popup-bg.jpg";
 
 const WhoWeAre = () => {
   return (
@@ -17,17 +21,13 @@ const WhoWeAre = () => {
         <div className="row">
           <div className="col-md-8 mx-auto">
             <div className="intro-video wow fadeInUp">
-              <img
-                src="assets/images/video-popup-bg.jpg"
-                alt="video popop up image"
-              />
+              <Image src={VideoPopup} alt="video popop up image" />
               <div className="video-pop-up-content">
-                <a
-                  href="https://youtu.be/zDAYZU4A3w0"
-                  className="xs-video-popup gloosy-btn"
-                >
-                  <i className="icon icon-play1"></i>
-                </a>
+                <Link href="https://youtu.be/zDAYZU4A3w0">
+                  <a className="xs-video-popup gloosy-btn">
+                    <i className="icon icon-play1"></i>
+                  </a>
+                </Link>
               </div>
               <div className="xs-overlay xs-bg-black"></div>
             </div>
