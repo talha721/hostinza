@@ -1,7 +1,13 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Link from "next/link";
 
 const VPSHostingDetails = () => {
+  useEffect(() => {
+    const script = document.createElement("script");
+    script.src = "/assets/js/vps-slider-settings.js";
+    script.async = true;
+    document.body.appendChild(script);
+  });
   return (
     <section className="xs-section-padding pt-0">
       <div className="container">

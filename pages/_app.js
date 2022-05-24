@@ -1,7 +1,5 @@
 import Layout from "../components/Layout";
 import React, { useEffect } from "react";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
 
 const isServer = typeof window === "undefined";
 const WOW = !isServer ? require("wow.js") : null;
