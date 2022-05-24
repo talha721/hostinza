@@ -18,7 +18,6 @@ export default function Document() {
         />
 
         <link rel="icon" type="image/png" href="favicon.ico" />
-        <link rel="apple-touch-icon" href="apple-touch-icon.png" />
         <link rel="stylesheet" href="assets/css/font-awesome.min.css" />
         <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
         <link rel="stylesheet" href="assets/css/animate.css" />
@@ -47,6 +46,12 @@ export default function Document() {
         <script src="assets/js/tweetie.js"></script>
         <script src="assets/js/jquery.parallax-scroll.js"></script>
         <script src="assets/js/jquery.ajaxchimp.min.js"></script>
+        {/*<script*/}
+        {/*  src="https://cdnjs.cloudflare.com/ajax/libs/jquery-parallax/1.1.3/jquery-parallax.js"*/}
+        {/*  integrity="sha512-HVbKRNsAHzfQy6OTKHsyyjY/BtJMye7ZJSQoAxuCYn2wZYWXjaSU3GyJ3aMK5If1eJkLRadg789c9Ol+1dvzKw=="*/}
+        {/*  crossOrigin="anonymous"*/}
+        {/*  referrerPolicy="no-referrer"*/}
+        {/*></script>*/}
         <script src="assets/js/jquery.parallax.js"></script>
         <script src="assets/js/hostslide.js"></script>
         <script src="assets/js/vps-slider.js"></script>
@@ -59,10 +64,10 @@ export default function Document() {
         <script src="assets/js/extensions/revolution.extension.kenburn.min.js"></script>
         <script src="assets/js/extensions/revolution.extension.layeranimation.min.js"></script>
         <script src="assets/js/extensions/revolution.extension.migration.min.js"></script>
-        <script src="assets/js/extensions/revolution.extension.navigation.min.js"></script>
-        <script src="assets/js/extensions/revolution.extension.parallax.min.js"></script>
-        <script src="assets/js/extensions/revolution.extension.slideanims.min.js"></script>
-        <script src="assets/js/extensions/revolution.extension.video.min.js"></script>
+        {/*<script src="assets/js/extensions/revolution.extension.navigation.min.js"></script>*/}
+        {/*<script src="assets/js/extensions/revolution.extension.parallax.min.js"></script>*/}
+        {/*<script src="assets/js/extensions/revolution.extension.slideanims.min.js"></script>*/}
+        {/*<script src="assets/js/extensions/revolution.extension.video.min.js"></script>*/}
         <script src="assets/js/shuffle-letters.js"></script>
         <script src="assets/js/main.js"></script>
       </body>

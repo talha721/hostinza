@@ -19,8 +19,16 @@ const Header = () => {
           <div className="xs-logo-wraper">
             <Link href={"/"}>
               <a className="xs-logo">
-                <Image src={ColorLogo} alt="logo" className="main-logo" />
-                <Image src={Logo} alt="logo" className="sticky-logo" />
+                <img
+                  src={"assets/images/color-logo.png"}
+                  alt="logo"
+                  className="main-logo"
+                />
+                <img
+                  src={"assets/images/logo.png"}
+                  alt="logo"
+                  className="sticky-logo"
+                />
               </a>
             </Link>
           </div>
@@ -34,7 +42,9 @@ const Header = () => {
             <div className="nav-menus-wrapper">
               <ul className="nav-menu">
                 <li className="mega-menus">
-                  <Link href={"/"}>Home</Link>
+                  <Link href={"/"}>
+                    <a>Home</a>
+                  </Link>
                 </li>
                 <li className="mega-menus">
                   <Link href={"#"}>Pages</Link>
@@ -157,7 +167,7 @@ const Header = () => {
                           <a>
                             <div className="media">
                               <Image src={Icon1} alt="icon" />
-                              <div className="media-body">
+                              <div className="media-body ml-4">
                                 <h4>Shared Hosting</h4>
                                 <p>
                                   Early Create sites & offload them to clients
@@ -170,7 +180,7 @@ const Header = () => {
                           <a>
                             <div className="media">
                               <Image src={Icon2} alt="icon" />
-                              <div className="media-body">
+                              <div className="media-body ml-4">
                                 <h4>Reseller Hosting</h4>
                                 <p>
                                   Early Create sites & offload them to clients
@@ -183,7 +193,7 @@ const Header = () => {
                           <a>
                             <div className="media">
                               <Image src={Icon3} alt="icon" />
-                              <div className="media-body">
+                              <div className="media-body ml-4">
                                 <h4>VPS hosting</h4>
                                 <p>Protect your Brand & Deploy faster</p>
                               </div>
@@ -194,7 +204,7 @@ const Header = () => {
                           <a>
                             <div className="media">
                               <Image src={Icon3} alt="icon" />
-                              <div className="media-body">
+                              <div className="media-body ml-4">
                                 <h4>Wordpress hosting</h4>
                                 <p>Get your wordpress hosting now.</p>
                               </div>
@@ -207,7 +217,7 @@ const Header = () => {
                           <a>
                             <div className="media">
                               <Image src={Icon4} alt="icon" />
-                              <div className="media-body">
+                              <div className="media-body ml-4">
                                 <h4>Cloud Hosting</h4>
                                 <p>Access your files from anywhere</p>
                               </div>
@@ -218,7 +228,7 @@ const Header = () => {
                           <a>
                             <div className="media">
                               <Image src={Icon5} alt="icon" />
-                              <div className="media-body">
+                              <div className="media-body ml-4">
                                 <h4>Dedicated Hosting</h4>
                                 <p>Be secure, be safe</p>
                               </div>
@@ -229,7 +239,7 @@ const Header = () => {
                           <a>
                             <div className="media">
                               <Image src={Icon6} alt="icon" />
-                              <div className="media-body">
+                              <div className="media-body ml-4">
                                 <h4>Domain Name</h4>
                                 <p>Grab your domain name today!</p>
                               </div>
