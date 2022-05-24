@@ -25,14 +25,21 @@ export default (req, res) => {
 
   transporter.sendMail(mailOptions, async (error, result) => {
     if (error) {
-      res.status(400).json({ success: false, message: "Email not sent." });
+      res.status(400).json({
+        success: false,
+        message: "Something Went Wrong! Please Try Again Later.",
+      });
+    } else {
+      res
+        .status(200)
+        .json({ success: false, message: "Email sent successfully!" });
     }
 
     if (req.method === "POST") {
       const contact = await Contact.create(req.body);
       res.status(200).json({ status: true, data: contact });
     } else {
-      res.status(400).json({ status: false, message: "create post error" });
+      res.status(400).json({ status: false, message: "Create Post Error!" });
     }
   });
 };

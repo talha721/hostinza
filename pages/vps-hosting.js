@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import VPSHostingBanner from "../components/components/HostingComponents/VPSHosting/VPSHostingBanner";
 import VPSHostingDetails from "../components/components/HostingComponents/VPSHosting/HostingDetails";
 import HostingDetails from "../components/components/HostingComponents/HostingDetails";

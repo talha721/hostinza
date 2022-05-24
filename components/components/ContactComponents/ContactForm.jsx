@@ -1,7 +1,16 @@
 import React, { useState } from "react";
 import axios from "axios";
+import { useForm } from "react-hook-form";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const ContactForm = () => {
+  const {
+    register,
+    handleSubmit,
+    formState: { errors },
+  } = useForm();
+
   const [contactValues, setContactValues] = useState({
     name: "",
     email: "",
@@ -9,11 +18,32 @@ const ContactForm = () => {
     message: "",
   });
 
-  const handleSubmit = () => {
+  const onSubmit = (data) => {
     axios
-      .post("api/contact", contactValues)
-      .then((response) => console.log(response))
-      .catch((error) => console.log(error));
+      .post("api/contact", data)
+      .then((response) => {
+        document.getElementById("contact-form").reset();
+        toast.success("Thankyou For Contacting Us! We'll Contact You ASAP.", {
+          position: "top-center",
+          autoClose: 3000,
+          hideProgressBar: false,
+          closeOnClick: true,
+          pauseOnHover: true,
+          draggable: true,
+          progress: undefined,
+        });
+      })
+      .catch((error) => {
+        toast.error("Something Went Wrong! Please Try Again Later.", {
+          position: "top-center",
+          autoClose: 3000,
+          hideProgressBar: false,
+          closeOnClick: true,
+          pauseOnHover: true,
+          draggable: true,
+          progress: undefined,
+        });
+      });
   };
 
   return (
@@ -36,7 +66,7 @@ const ContactForm = () => {
                 method="POST"
                 id="contact-form"
                 className="xs-form"
-                onClick={(values) => handleSubmit(values)}
+                onSubmit={handleSubmit(onSubmit)}
               >
                 <div className="form-group">
                   <input
@@ -51,7 +81,13 @@ const ContactForm = () => {
                         name: e.target.value,
                       })
                     }
+                    {...register("name", { required: true })}
+                    minLength="3"
+                    maxLength="15"
                   />
+                  <span className="text-danger mt-0">
+                    {errors.name?.type === "required" && "Name is required"}
+                  </span>
                   <input
                     type="email"
                     className="form-control"
@@ -64,7 +100,14 @@ const ContactForm = () => {
                         email: e.target.value,
                       })
                     }
+                    {...register("email", {
+                      required: true,
+                      pattern: "/^[a-z0-9._%+-]+@[a-z0-9.-]+.[a-z]{2,4}$/",
+                    })}
                   />
+                  <span className="text-danger mt-0">
+                    {errors.email?.type === "required" && "Email is required"}
+                  </span>
                   <input
                     type="url"
                     className="form-control"
@@ -77,7 +120,11 @@ const ContactForm = () => {
                         website: e.target.value,
                       })
                     }
+                    {...register("website", { required: true })}
                   />
+                  <span className="text-danger mt-0">
+                    {errors.website?.type === "required" && "URL is required"}
+                  </span>
                   <textarea
                     name="massage"
                     placeholder="Question"
@@ -91,7 +138,14 @@ const ContactForm = () => {
                         message: e.target.value,
                       })
                     }
+                    {...register("message", { required: true })}
+                    minLength="15"
+                    maxLength="100"
                   ></textarea>
+                  <span className="text-danger mt-0">
+                    {errors.message?.type === "required" &&
+                      "Question is required! Please ask your question."}
+                  </span>
                 </div>
                 <div className="xs-btn-wraper">
                   <input
@@ -103,6 +157,18 @@ const ContactForm = () => {
                 </div>
               </form>
             </div>
+            <ToastContainer
+              position="top-center"
+              autoClose={3000}
+              hideProgressBar={false}
+              newestOnTop={false}
+              closeOnClick
+              rtl={false}
+              pauseOnFocusLoss
+              draggable
+              pauseOnHover
+              style={{ width: "500px" }}
+            />
           </div>
         </div>
       </div>
