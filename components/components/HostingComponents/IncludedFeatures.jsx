@@ -10,7 +10,7 @@ import FeatureImage6 from "../../../public/assets/images/included-feature/includ
 
 const IncludedFeatures = () => {
   return (
-    <section className="xs-section-padding included-feature-list bg-gradient">
+    <section className="xs-section-padding included-feature-list feature-list-v3 bg-gradient">
       <div className="container">
         <div className="row">
           <div className="col-md-6 mx-auto">
@@ -54,7 +54,7 @@ const IncludedFeatures = () => {
                   <Image src={FeatureImage3} alt="included feature icon" />
                 </div>
                 <div className="media-body">
-                  <h4 className="xs-title">cPanel Hosting Control </h4>
+                  <h4 className="xs-title">cPanel Hosting Control</h4>
                   <p>
                     Share processes and data secure lon a need to know basis
                     with out the need for reconciliation it combines.

@@ -10,14 +10,14 @@ export default (req, res) => {
   const transporter = nodemailer.createTransport({
     service: "gmail",
     auth: {
-      user: "talhamoazzam4118@gmail.com",
-      pass: "talha1117",
+      user: "",
+      pass: "",
     },
   });
 
   let mailOptions = {
     from: email,
-    to: "talhamoazzam4118@gmail.com",
+    to: "",
     subject: message,
     html: `<h3>Name: ${name}</h3><h3>Email: ${email}</h3><h3>Website: ${website}</h3>
                     <p>Message: ${message}</p>`,

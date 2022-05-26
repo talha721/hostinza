@@ -23,7 +23,10 @@ const OurOffice = () => {
         <div className="row">
           <div className="col-md-6 col-lg-4 offset-lg-2">
             <div className="office-interface-group-content wow fadeInLeft">
-              <Image src={OfficeImage1} alt="office images" />
+              <img
+                src={"/assets/images/office/office-img-1.jpg"}
+                alt="office images"
+              />
             </div>
           </div>
           <div className="col-md-6">
@@ -44,7 +47,10 @@ const OurOffice = () => {
               className="office-interface-group-content content-1 wow fadeInLeft"
               data-wow-duration="1.3s"
             >
-              <Image src={OfficeImage2} alt="office images" />
+              <img
+                src={"/assets/images/office/office-img-2.jpg"}
+                alt="office images"
+              />
             </div>
           </div>
           <div className="col-md-4">
@@ -52,7 +58,10 @@ const OurOffice = () => {
               className="office-interface-group-content content-2 wow fadeInRight"
               data-wow-duration="1.5s"
             >
-              <Image src={OfficeImage3} alt="office images" />
+              <img
+                src={"/assets/images/office/office-img-3.jpg"}
+                alt="office images"
+              />
             </div>
           </div>
         </div>

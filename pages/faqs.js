@@ -3,6 +3,8 @@ import FaqBanner from "../components/components/FaqsComponents/FaqBanner";
 import GeneralQuestions from "../components/components/FaqsComponents/GeneralQuestions";
 import AskQuestionsForm from "../components/components/FaqsComponents/AskQuestionsForm";
 import Head from "next/head";
+import Testinomial from "../components/components/HostingComponents/Testinomial";
+import Clients from "../components/components/HostingComponents/Clients";
 
 const Faqs = () => {
   return (
@@ -13,6 +15,8 @@ const Faqs = () => {
       <FaqBanner />
       <GeneralQuestions />
       <AskQuestionsForm />
+      <Testinomial />
+      <Clients />
     </>
   );
 };

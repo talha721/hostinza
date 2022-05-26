@@ -23,7 +23,10 @@ const OurExperts = () => {
         <div className="row">
           <div className="col-lg-3 col-md-6">
             <div className="xs-single-team wow fadeInUp">
-              <Image src={TeamImage1} alt="team memeber image" />
+              <img
+                src={"/assets/images/teams/team-1.jpg"}
+                alt="team memeber image"
+              />
               <div className="team-bio">
                 <h4>Dimon Lake</h4>
                 <p>CEO</p>
@@ -63,7 +66,10 @@ const OurExperts = () => {
           </div>
           <div className="col-lg-3 col-md-6">
             <div className="xs-single-team wow fadeInUp" data-wow-duration="1s">
-              <Image src={TeamImage2} alt="team memeber image" />
+              <img
+                src={"/assets/images/teams/team-2.jpg"}
+                alt="team memeber image"
+              />
               <div className="team-bio">
                 <h4>Lara Kein</h4>
                 <p>HR Head</p>
@@ -106,7 +112,10 @@ const OurExperts = () => {
               className="xs-single-team wow fadeInUp"
               data-wow-duration="1.3s"
             >
-              <Image src={TeamImage3} alt="team memeber image" />
+              <img
+                src={"/assets/images/teams/team-3.jpg"}
+                alt="team memeber image"
+              />
               <div className="team-bio">
                 <h4>James Carter</h4>
                 <p>Marketing manager</p>
@@ -149,7 +158,10 @@ const OurExperts = () => {
               className="xs-single-team wow fadeInUp"
               data-wow-duration="1.6s"
             >
-              <Image src={TeamImage4} alt="team memeber image" />
+              <img
+                src={"/assets/images/teams/team-4.jpg"}
+                alt="team memeber image"
+              />
               <div className="team-bio">
                 <h4>Lina Ketty</h4>
                 <p>Head of design</p>

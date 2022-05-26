@@ -37,7 +37,11 @@ const DomainPricing = () => {
             <tbody>
               <tr>
                 <th scope="row">
-                  <Image src={ComDomainImage} alt="domain name com icon" />
+                  <Image
+                    src={ComDomainImage}
+                    alt="domain name com icon"
+                    priority
+                  />
                 </th>
                 <td>
                   $19.95 <del>$29.95</del>
@@ -47,7 +51,11 @@ const DomainPricing = () => {
               </tr>
               <tr>
                 <th scope="row">
-                  <Image src={MeDomainImage} alt="domain name me icon" />
+                  <Image
+                    src={MeDomainImage}
+                    alt="domain name me icon"
+                    priority
+                  />
                 </th>
                 <td>$16.95</td>
                 <td>$16.95</td>
@@ -55,7 +63,11 @@ const DomainPricing = () => {
               </tr>
               <tr>
                 <th scope="row">
-                  <Image src={BizDomainImage} alt="domain name biz icon" />
+                  <Image
+                    src={BizDomainImage}
+                    alt="domain name biz icon"
+                    priority
+                  />
                 </th>
                 <td>$09.95</td>
                 <td>$09.95</td>
@@ -63,7 +75,11 @@ const DomainPricing = () => {
               </tr>
               <tr>
                 <th scope="row">
-                  <Image src={CoDomainImage} alt="domain name co icon" />
+                  <Image
+                    src={CoDomainImage}
+                    alt="domain name co icon"
+                    priority
+                  />
                 </th>
                 <td>$15.95</td>
                 <td>$15.95</td>
@@ -71,7 +87,11 @@ const DomainPricing = () => {
               </tr>
               <tr>
                 <th scope="row">
-                  <Image src={NetDomainImage} alt="domain name net icon" />
+                  <Image
+                    src={NetDomainImage}
+                    alt="domain name net icon"
+                    priority
+                  />
                 </th>
                 <td>$19.95</td>
                 <td>$19.95</td>
@@ -79,7 +99,11 @@ const DomainPricing = () => {
               </tr>
               <tr>
                 <th scope="row">
-                  <Image src={InfoDomainImage} alt="domain name info icon" />
+                  <Image
+                    src={InfoDomainImage}
+                    alt="domain name info icon"
+                    priority
+                  />
                 </th>
                 <td>
                   $14.95 <del>$29.95</del>
@@ -89,7 +113,11 @@ const DomainPricing = () => {
               </tr>
               <tr>
                 <th scope="row">
-                  <Image src={StoreDomainImage} alt="domain name store icon" />
+                  <Image
+                    src={StoreDomainImage}
+                    alt="domain name store icon"
+                    priority
+                  />
                 </th>
                 <td>$16.95</td>
                 <td>$16.95</td>
@@ -97,7 +125,11 @@ const DomainPricing = () => {
               </tr>
               <tr>
                 <th scope="row">
-                  <Image src={MobiDomainImage} alt="domain name mobi icon" />
+                  <Image
+                    src={MobiDomainImage}
+                    alt="domain name mobi icon"
+                    priority
+                  />
                 </th>
                 <td>$18.95</td>
                 <td>$18.95</td>

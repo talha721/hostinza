@@ -5,6 +5,8 @@ import AffiliateWorks from "../components/components/AffiliateComponents/Affilia
 import AffiliatePricing from "../components/components/AffiliateComponents/AffiliatePricing";
 import AffiliatePackages from "../components/components/AffiliateComponents/AffiliatePackages";
 import Head from "next/head";
+import Testinomial from "../components/components/HostingComponents/Testinomial";
+import Clients from "../components/components/HostingComponents/Clients";
 
 const Affiliate = () => {
   return (
@@ -17,6 +19,8 @@ const Affiliate = () => {
       <AffiliateWorks />
       <AffiliatePricing />
       <AffiliatePackages />
+      <Testinomial />
+      <Clients />
     </>
   );
 };

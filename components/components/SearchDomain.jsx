@@ -34,23 +34,23 @@ const SearchDomain = () => {
           <ul className="xs-domain-info">
             <li>
               <Image src={ComImage} alt="Domain name" />
-              <strong>$2.95</strong>
+              <strong className={"ml-3"}>$2.95</strong>
             </li>
             <li>
               <Image src={CoImage} alt="Domain name" />
-              <strong>$4.5</strong>
+              <strong className={"ml-3"}>$4.5</strong>
             </li>
             <li>
               <Image src={NetImage} alt="Domain name" />
-              <strong>$5.8</strong>
+              <strong className={"ml-3"}>$5.8</strong>
             </li>
             <li>
               <Image src={InfoImage} alt="Domain name" />
-              <strong>$7.9</strong>
+              <strong className={"ml-3"}>$7.9</strong>
             </li>
             <li>
               <Image src={StoreImage} alt="Domain name" />
-              <strong>$1.00</strong>
+              <strong className={"ml-3"}>$1.00</strong>
             </li>
           </ul>
         </div>

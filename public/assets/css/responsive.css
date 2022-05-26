@@ -124,8 +124,8 @@ Author URI: http://themeforest.net/user/XpeedStudio/portfolio
     box-shadow: 0 0.5em 0 0 #ffffff, 0 1em 0 0 #ffffff;
   }
   .xs-header.header-boxed .nav-toggle:before {
-    background-color: #1e1e1e;
-    box-shadow: 0 0.5em 0 0 #1e1e1e, 0 1em 0 0 #1e1e1e;
+    background-color: #ffffff;
+    box-shadow: 0 0.5em 0 0 #ffffff, 0 1em 0 0 #ffffff;
   }
   .xs-header.header-boxed > .container::before {
     display: none;

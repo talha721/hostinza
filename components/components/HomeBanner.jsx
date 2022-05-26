@@ -27,14 +27,12 @@ const Banner = () => {
                   id="domain-search"
                 />
                 <div className="select-group">
-                  <select name="domainList">
-                    <option value="com" selected>
-                      .com
-                    </option>
-                    <option value="net">.net</option>
-                    <option value="io">.io</option>
-                    <option value="info">.info</option>
-                    <option value="store">.store</option>
+                  <select name="domainList" multiple className="form-control">
+                    <option>.com</option>
+                    <option>.net</option>
+                    <option>.io</option>
+                    <option>.info</option>
+                    <option>.store</option>
                   </select>
                 </div>
                 <button className="search-btn">

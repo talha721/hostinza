@@ -4,6 +4,8 @@ import VPSHostingDetails from "../components/components/HostingComponents/VPSHos
 import HostingDetails from "../components/components/HostingComponents/HostingDetails";
 import IncludedFeatures from "../components/components/HostingComponents/IncludedFeatures";
 import Head from "next/head";
+import Testinomial from "../components/components/HostingComponents/Testinomial";
+import Clients from "../components/components/HostingComponents/Clients";
 
 const VpsHosting = () => {
   return (
@@ -15,6 +17,8 @@ const VpsHosting = () => {
       <HostingDetails />
       <VPSHostingDetails />
       <IncludedFeatures />
+      <Testinomial />
+      <Clients />
     </>
   );
 };

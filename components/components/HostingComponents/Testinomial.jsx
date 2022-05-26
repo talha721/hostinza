@@ -7,7 +7,7 @@ import Avatar3 from "../../../public/assets/images/avatar/avatar-3.png";
 
 const Testinomial = () => {
   return (
-    <section className="xs-testimonial-section testimonial-v3 wow fadeIn">
+    <section className="xs-testimonial-section testimonial-v5 wow fadeIn">
       <div className="container">
         <div className="xs-testimonial-slider testimonial-slider owl-carousel">
           <div className="xs-testimonial-item">
@@ -18,10 +18,7 @@ const Testinomial = () => {
               </p>
               <div className="commentor-bio media">
                 <div className="d-flex round-avatar">
-                  <img
-                    src="assets/images/avatar/avatar-1.png"
-                    alt="avatar image"
-                  />
+                  <Image src={Avatar1} alt="avatar image" priority />
                 </div>
                 <div className="media-body align-self-center">
                   <h4 className="commentor-title">Richard I Jones</h4>
@@ -39,10 +36,7 @@ const Testinomial = () => {
               </p>
               <div className="commentor-bio media">
                 <div className="d-flex round-avatar">
-                  <img
-                    src="assets/images/avatar/avatar-2.png"
-                    alt="avatar image"
-                  />
+                  <Image src={Avatar2} alt="avatar image" priority />
                 </div>
                 <div className="media-body align-self-center">
                   <h4 className="commentor-title">Cecilia H King</h4>
@@ -60,10 +54,7 @@ const Testinomial = () => {
               </p>
               <div className="commentor-bio media">
                 <div className="d-flex round-avatar">
-                  <img
-                    src="assets/images/avatar/avatar-3.png"
-                    alt="avatar image"
-                  />
+                  <Image src={Avatar3} alt="avatar image" priority />
                 </div>
                 <div className="media-body align-self-center">
                   <h4 className="commentor-title">Joe D Walczak</h4>
